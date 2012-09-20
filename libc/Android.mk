@@ -427,8 +427,6 @@ libc_common_src_files += \
 	arch-arm/bionic/strlen.c.arm
 endif
 
-else # !arm
-
 libc_common_src_files += \
 	string/memchr.c \
 	string/strchr.c
